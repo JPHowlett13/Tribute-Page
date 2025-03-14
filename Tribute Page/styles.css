@@ -1,0 +1,123 @@
+
+  
+
+ body {
+    background-image: url("https://www.singulart.com/images/artworks/v2/cropped/14725/main/zoom/1085929_b7eaf3586e58c2c2226c12875598c331.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+    color: white;
+    
+
+}
+
+
+main {
+  display: block;
+  margin: 30px 1em ;
+    padding: 1.5em;
+    border-radius: 5px;
+    font-family: garamond;
+    -webkit-text-stroke: .2px rgb(212, 175, 55);
+}
+
+h1 {
+  text-align: center;
+  margin: 1em auto 0;
+  font-size: 4em;
+}
+
+p {
+  text-align: center;
+  font-size: 2em;
+  margin: .5em auto 2em;
+}
+
+figure {
+  display: block;
+  
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto
+}
+
+figcaption, h2 {
+  display: block;
+  text-align: center;
+  margin: 1em auto 3em;
+
+}
+
+h2 {
+  font-size: 2em;
+  margin: 0 auto 2em;
+}
+
+ul {
+  font-size: 1.3em;
+  list-style: none;
+  margin: 2em auto 1em;
+  padding: 0;
+  
+  li {
+    margin: 0;
+    margin-bottom: 1em;
+    padding-left: 1.5em;
+    position: relative;
+    
+    
+    &:after {
+      content: '';
+      height: .4em;
+      width: .4em;
+      background: rgb(212, 175, 55);
+      display: block;
+      position: absolute;
+      transform: rotate(45deg);
+      top: .25em;
+      left: 0;
+      
+    }
+    
+  }
+  
+}
+
+h3 {
+  font-style: italic;
+  font-weight: 100;
+display: block;
+margin: 1em auto 1em;
+text-shadow:
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+}
+
+h4 {
+  text-align: center;
+
+}
+
+a {
+  color: rgb(212, 175, 55);
+  text-shadow:
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+}
+
+li {
+  text-shadow:
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+}
